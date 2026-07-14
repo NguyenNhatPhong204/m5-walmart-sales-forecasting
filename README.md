@@ -2,12 +2,10 @@
 
 Dự án Trí tuệ Nhân tạo (AI) ứng dụng thuật toán Machine Learning để tối ưu hóa chuỗi cung ứng và dự báo nhu cầu hàng hóa bán lẻ cấp độ sản phẩm, dựa trên tập dữ liệu lịch sử của Walmart (Kaggle M5 Forecasting).
 
-**Phát triển bởi:** NGUYEN NHAT PHONG
-
 ## Mục tiêu dự án
 Giải quyết bài toán **Intermittent Demand (Nhu cầu đứt quãng)** trong ngành bán lẻ. Đây là hiện tượng dữ liệu bán hàng có chứa lượng lớn giá trị 0 (vài ngày liên tiếp không bán được hàng) xen kẽ với các đỉnh doanh số bất ngờ. Các mô hình hồi quy (Regression) truyền thống thường thất bại ở bài toán này do xu hướng dự đoán cào bằng.
 
-## 🛠️ Công nghệ & Thư viện sử dụng
+## Công nghệ & Thư viện sử dụng
 *   **Xử lý dữ liệu quy mô lớn (Big Data):** `pandas`, `numpy`, `pyarrow` (định dạng Parquet).
 *   **Mô hình hóa (Modeling):** `LightGBM` (Tối ưu hóa tốc độ và bộ nhớ).
 *   **Tối ưu siêu tham số (Hyperparameter Tuning):** `Optuna`, `MLflow` (Theo dõi log thực nghiệm).
@@ -53,3 +51,5 @@ Giao diện: http://localhost:8501
 <p align="center">
   <img src="interface.png" alt="Demo giao diện" width="800">
 </p>
+
+**Phát triển bởi:** NGUYEN NHAT PHONG
