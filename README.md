@@ -47,3 +47,9 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+## Truy cập hệ thống:
+Giao diện: http://localhost:8501
+
+<p align="center">
+  <img src="interface.png" alt="Demo giao diện" width="800">
+</p>
