@@ -1,0 +1,11 @@
+# Bỏ qua dữ liệu
+data_raw/
+data_processed/
+
+# Bỏ qua log của MLflow
+notebooks/mlruns/
+*.db
+
+# Bỏ qua các file hệ thống và cache
+__pycache__/
+.DS_Store
